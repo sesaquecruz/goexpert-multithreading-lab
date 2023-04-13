@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  getcep:
+    container_name: getcep
+    image: getcep
+    build: .
